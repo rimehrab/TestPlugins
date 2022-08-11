@@ -1,0 +1,131 @@
+[
+    {
+        "iconUrl": "https://animedekho.co/wp-content/uploads/2023/07/AnimeDekho-Logo-300x-1.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 21218,
+        "status": 1,
+        "language": "hi",
+        "authors": [
+            "Mehrab Mahmud Udoy"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "version": 57,
+        "internalName": "AnimeDekho",
+        "description": "AnimeDekho Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/AnimeDekho.cs3",
+        "name": "AnimeDekho"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/rimehrab/extensions.cs3/master/CIRCLE FTP (BDIX)/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 18515,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 24,
+        "internalName": "CIRCLE FTP (BDIX)",
+        "description": "Circle FTP BDIX Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/CIRCLE FTP (BDIX).cs3",
+        "name": "CIRCLE FTP (BDIX)"
+    },
+    {
+        "iconUrl": "https://dflix.discoveryftp.net/assets/images/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 18088,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 8,
+        "internalName": "DFLIX (BDIX)",
+        "description": "Discovery FTP BDIX Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/DFLIX (BDIX).cs3",
+        "name": "DFLIX (BDIX)"
+    },
+    {
+        "iconUrl": "https://dflix.discoveryftp.net/assets/images/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 11840,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 8,
+        "internalName": "dflix rewritten test",
+        "description": "Discovery FTP BDIX Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/dflix rewritten test.cs3",
+        "name": "dflix rewritten test"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/rimehrab/TestPlugins/refs/heads/master/ICC FTP (BDIX)/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 13257,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 2,
+        "internalName": "ICC FTP (BDIX)",
+        "description": "ICC FTP BDIX Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/ICC FTP (BDIX).cs3",
+        "name": "ICC FTP (BDIX)"
+    }
+]
