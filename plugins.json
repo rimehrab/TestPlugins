@@ -1,0 +1,25 @@
+[
+    {
+        "iconUrl": "https://animedekho.co/wp-content/uploads/2023/07/AnimeDekho-Logo-300x-1.png",
+        "jarFileSize": 155392,
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 28588,
+        "status": 1,
+        "language": "hi",
+        "authors": [
+            "Hindi Provider"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "version": 57,
+        "internalName": "AnimeDekhoProvider",
+        "jarUrl": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/AnimeDekhoProvider.jar",
+        "description": "Includes AnimeDekho,OnePace(DUB,SUB) and HindiSubAnime",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/AnimeDekhoProvider.cs3",
+        "name": "AnimeDekhoProvider"
+    }
+]
