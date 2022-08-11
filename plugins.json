@@ -1,0 +1,29 @@
+[
+    {
+        "iconUrl": "https://rimehrab.github.io/extensions.cs3/DFLIX (BDIX)/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 18109,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy, Redowan"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 0,
+        "internalName": "DFLIX (BDIX) (WIP)",
+        "description": "WIP",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/DFLIX (BDIX) (WIP).cs3",
+        "name": "DFLIX (BDIX) (WIP)"
+    }
+]
