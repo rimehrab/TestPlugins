@@ -1,0 +1,29 @@
+[
+    {
+        "iconUrl": "https://dflix.discoveryftp.net/assets/images/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/rimehrab/TestPlugins",
+        "fileSize": 12234,
+        "status": 1,
+        "language": "bn",
+        "authors": [
+            "Mehrab Mahmud Udoy, Redown"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie",
+            "OVA",
+            "Cartoon",
+            "AsianDrama",
+            "Others",
+            "Documentary"
+        ],
+        "version": 1,
+        "internalName": "DFLIX (BDIX)",
+        "description": "Discovery BDIX Provider",
+        "url": "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/DFLIX (BDIX).cs3",
+        "name": "DFLIX (BDIX)"
+    }
+]
