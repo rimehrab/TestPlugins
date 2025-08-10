@@ -2,7 +2,7 @@
 version = 8
 
 android {
-    namespace = "com.nehal"
+    namespace = "dev.rimehrab"
     buildFeatures {
         buildConfig = true
     }
@@ -12,7 +12,7 @@ cloudstream {
     // All of these properties are optional, you can safely remove them
 
     description = "Discovery BDIX Provider"
-    authors = listOf("Nehal")
+    authors = listOf("Mehrab Mahmud Udoy")
 
     /**
      * Status int as the following:
