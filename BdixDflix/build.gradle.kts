@@ -2,7 +2,7 @@
 version = 8
 
 android {
-    namespace = "dev.rimehrab"
+    namespace = "com.rimehrab"
     buildFeatures {
         buildConfig = true
     }
