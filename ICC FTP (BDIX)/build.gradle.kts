@@ -36,5 +36,5 @@ cloudstream {
     )
     language = "bn"
 
-    iconUrl = "https://raw.githubusercontent.com/rimehrab/TestPlugins/refs/heads/master/BdixDhakaFlix/icon.png"
+    iconUrl = "https://raw.githubusercontent.com/rimehrab/TestPlugins/refs/heads/master/ICC FTP (BDIX)/icon.png"
 }
