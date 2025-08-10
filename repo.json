@@ -1,0 +1,8 @@
+{
+    "name": "rimehrab's server",
+    "description": "My Personal choice of servers",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/plugins.json"
+    ]
+}
