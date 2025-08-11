@@ -31,9 +31,7 @@ cloudstream {
         "Anime",
         "Cartoon",
     )
-    language = "bn"
+    language = "hi"
 
     iconUrl = "https://animedekho.co/wp-content/uploads/2023/07/AnimeDekho-Logo-300x-1.png"
-    
-    isCrossPlatform = true
 }
