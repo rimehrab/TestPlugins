@@ -1,0 +1,8 @@
+{
+    "name": "rimehrab's test  repository",
+    "description": "rimehrab's test extension repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/rimehrab/TestPlugins/builds/plugins.json"
+    ]
+}
