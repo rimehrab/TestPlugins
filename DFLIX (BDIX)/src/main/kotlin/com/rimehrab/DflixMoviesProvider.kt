@@ -4,7 +4,7 @@ import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.*
 import org.jsoup.nodes.Element
 
-class DflixMoviesProvider : MainAPI() {
+class DflixProvider : MainAPI() {
     override var mainUrl = "https://dflix.discoveryftp.net"
     override var name = "DFLIX (BDIX)"
     override val hasMainPage = true
