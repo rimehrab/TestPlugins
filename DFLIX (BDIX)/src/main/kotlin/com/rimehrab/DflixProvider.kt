@@ -9,7 +9,7 @@ class DflixProvider : MainAPI() {
     override var name = "DFLIX (BDIX)"
     override val hasMainPage = true
     override val hasDownloadSupport = true
-    override val hasQuickSearch = false
+    override val hasQuickSearch = true
     override var lang = "bn"
     override val supportedTypes = setOf(
         TvType.Movie,
