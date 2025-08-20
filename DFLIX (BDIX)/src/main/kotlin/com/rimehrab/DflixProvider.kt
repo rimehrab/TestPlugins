@@ -3,6 +3,8 @@ package com.rimehrab
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.Qualities
+// FIX 1: Add the missing import for the helper function
+import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class DflixProvider : MainAPI() {
@@ -116,8 +118,9 @@ class DflixProvider : MainAPI() {
     ): Boolean {
         if (data.isBlank()) return false
 
+        // FIX 2: Use the .apply scope function to set properties
         callback.invoke(
-            newExtractorLink(this.name, this.name, data) {
+            newExtractorLink(this.name, this.name, data).apply {
                 this.referer = mainUrl
                 this.quality = getQualityFromName(data)
             }
