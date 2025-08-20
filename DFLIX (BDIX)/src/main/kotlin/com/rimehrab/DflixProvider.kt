@@ -2,6 +2,7 @@ package com.rimehrab
 
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.Qualities
 import org.jsoup.nodes.Element
 
 class DflixProvider : MainAPI() {
@@ -116,13 +117,10 @@ class DflixProvider : MainAPI() {
         if (data.isBlank()) return false
 
         callback.invoke(
-            ExtractorLink(
-                source = this.name,
-                name = this.name,
-                url = data,
-                referer = mainUrl,
-                quality = getQualityFromName(data)
-            )
+            newExtractorLink(this.name, this.name, data) {
+                this.referer = mainUrl
+                this.quality = getQualityFromName(data)
+            }
         )
         return true
     }
