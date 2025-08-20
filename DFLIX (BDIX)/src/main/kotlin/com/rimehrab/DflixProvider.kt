@@ -2,7 +2,6 @@ package com.rimehrab
 
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class DflixProvider : MainAPI() {
@@ -117,7 +116,7 @@ class DflixProvider : MainAPI() {
         if (data.isBlank()) return false
 
         callback.invoke(
-            newExtractorLink(
+            ExtractorLink(
                 source = this.name,
                 name = this.name,
                 url = data,
@@ -142,5 +141,17 @@ class DflixProvider : MainAPI() {
             }
         }
         return null
+    }
+
+    private fun getQualityFromName(name: String): Int {
+        val lowerCaseName = name.lowercase()
+        return when {
+            lowerCaseName.contains("4k") || lowerCaseName.contains("2160") -> Qualities.P2160.value
+            lowerCaseName.contains("1080") -> Qualities.P1080.value
+            lowerCaseName.contains("720") -> Qualities.P720.value
+            lowerCaseName.contains("480") -> Qualities.P480.value
+            lowerCaseName.contains("360") -> Qualities.P360.value
+            else -> Qualities.Unknown.value
+        }
     }
 }
