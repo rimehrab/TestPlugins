@@ -176,4 +176,3 @@ class DflixProvider : MainAPI() {
         }
     }
 }
-}
