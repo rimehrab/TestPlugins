@@ -177,25 +177,26 @@ open class ICCFtpProvider : MainAPI() {
         }
     }
 
-    override suspend fun loadLinks(
-        data: String,
-        isCasting: Boolean,
-        subtitleCallback: (SubtitleFile) -> Unit,
-        callback: (ExtractorLink) -> Unit
-    ): Boolean {
-        val quality = inferQualityFromUrl(data)
-        callback.invoke(
-            newExtractorLink(
-                this.name,
-                this.name,
-                url = data,
-                referer = mainUrl,
-                quality = quality,
-                headers = mapOf("Referer" to mainUrl)
-            )
-        )
-        return true
-    }
+override suspend fun loadLinks(
+    data: String,
+    isCasting: Boolean,
+    subtitleCallback: (SubtitleFile) -> Unit,
+    callback: (ExtractorLink) -> Unit
+ ): Boolean {
+    val quality = inferQualityFromUrl(data)
+    callback.invoke(
+        newExtractorLink(
+            this.name,
+            this.name,
+            data,
+            null, // type
+            quality,
+            mainUrl,
+            mapOf("Referer" to mainUrl)
+         )
+     )
+     return true
+ }
 
     private fun inferQualityFromUrl(url: String): Int {
         val lower = url.lowercase(Locale.ROOT)
