@@ -8,8 +8,8 @@ android {
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Discovery FTP BDIX Provider"
-    authors = listOf("Mehrab Mahmud Udoy, Redowan")
+    description = "Discovery BDIX Provider"
+    authors = listOf("Mehrab Mahmud Udoy, Redown")
 
     /**
      * Status int as the following:
