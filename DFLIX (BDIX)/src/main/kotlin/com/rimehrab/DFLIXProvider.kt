@@ -35,6 +35,7 @@ import org.jsoup.select.Elements
 
 object DflixSelectors {
     const val mainPageCard = "div.card"
+    const val searchResultCard = "div.moviegrid > div.card:not(:has(div.poster.disable))"
     const val cardLink = "div.card > a:nth-child(1)"
     const val cardTitle = "div.card > div:nth-child(2) > h3:nth-child(1)"
     const val cardQuality = "div.feedback > span:nth-child(1)"
@@ -57,7 +58,7 @@ object DflixSelectors {
 
 class DFLIXProvider : MainAPI() { // all providers must be an instance of MainAPI
     override var mainUrl = "https://dflix.discoveryftp.net"
-    override var name = "DFLIX (BDIX) - TEST"
+    override var name = "DFLIX"
     override val hasMainPage = true
     override val hasDownloadSupport = true
     override val hasQuickSearch = false
@@ -118,7 +119,7 @@ class DFLIXProvider : MainAPI() { // all providers must be an instance of MainAP
     override suspend fun search(query: String): List<SearchResponse> {
         login()
         val doc = app.get("$mainUrl/m/find/$query", cookies = loginCookie!!).document
-        val searchResponse = doc.select(DflixSelectors.mainPageCard)
+        val searchResponse = doc.select(DflixSelectors.searchResultCard)
         return parseMovieCards(searchResponse)
     }
 
